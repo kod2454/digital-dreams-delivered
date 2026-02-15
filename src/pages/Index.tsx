@@ -9,7 +9,7 @@ const Navbar = () => (
         <div className="w-9 h-9 rounded-lg bg-accent flex items-center justify-center">
           <Laptop className="w-5 h-5 text-accent-foreground" />
         </div>
-        <span className="font-display font-bold text-xl text-foreground">Global Spark Foundation</span>
+        <span className="font-display font-bold text-xl text-foreground">Byte Sized Dreams</span>
       </div>
       <div className="hidden md:flex items-center gap-8">
         <a href="#mission" className="text-muted-foreground hover:text-foreground transition-colors text-sm font-medium">Mission</a>
@@ -89,7 +89,7 @@ const Mission = () => (
           Technology should be a right, not a privilege
         </h2>
         <p className="text-lg text-muted-foreground">
-          Millions of children lack access to basic technology, creating a gap in education and opportunity. Global Spark Foundation is here to change that.
+          Millions of children lack access to basic technology, creating a gap in education and opportunity. Byte Sized Dreams is here to change that.
         </p>
       </div>
       <div className="grid md:grid-cols-3 gap-6">
@@ -172,9 +172,9 @@ const Footer = () => (
           <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
             <Laptop className="w-4 h-4 text-accent-foreground" />
           </div>
-          <span className="font-display font-bold text-primary-foreground">Global Spark Foundation</span>
+          <span className="font-display font-bold text-primary-foreground">Byte Sized Dreams</span>
         </div>
-        <p className="text-sm">© 2026 Global Spark Foundation. All rights reserved.</p>
+        <p className="text-sm">© 2026 Byte Sized Dreams. All rights reserved.</p>
       </div>
     </div>
   </footer>
